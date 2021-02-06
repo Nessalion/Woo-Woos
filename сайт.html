@@ -19,24 +19,27 @@
     </head>
     <!-- Главная Башка -->
     <header class="Verxniy_xren" id="osnova">
-         <a id="knopa1" href="C:\Users\konop\Desktop\Хакатон\Visual Studio\сайт.html"></a>   <!-- Кнопка с картинкой Woo-Wooz  -->
-        <div class="dropdown" id="drop">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="button1">Кнопа</button>  <!-- Кнопка со выпадающим списком     -->
+        <a id="knopa1" href="C:\Users\konop\Desktop\Хакатон\Visual Studio\сайт.html"></a>   <!-- Кнопка с картинкой Woo-Wooz  -->
+        
+        <!-- <ul class="nav navbar-nav nav-justified">
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="city">Город</a>
                 <ul class="dropdown-menu">
-                    <li><a href="#nevid">Школьники</a></li>
-                    <li><a href="#">Левым</a></li>
-                    <li><a href="#">Правым</a></li>
-
-
-
+                    <li><a onclick="kk2()" id="naeb">Ростов-на-Дону</a></li>
                 </ul>
+            </li> 
 
-
-        </div>
+        </ul> -->
+        <select name="select2" id="city">
+            <option selected="selected">Выберите Город</option>
+            <option>Ростов-на-Дону</option>
+            
+        </select>
+        
     </header>
     <!-- Башка с кнопкой -->
-    <header id="lol">
-        <div id="plavno-vverx" onclick="slowScroll('#nevid')">
+    <header id="lol" class>
+        <div id="plavno-vverx" onclick="slowScroll('#body')">
         
         </div>
         
@@ -55,6 +58,8 @@
         
     </body> 
     <!-- Начало скриптов -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script lang="JavaScript">
         function slowScroll(id) {
         $('html, body').animate({
@@ -62,9 +67,19 @@
             
         }
 
-        
+        $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("#plavno-vverx").removeClass("konpka_vverx");
+      else
+        $("#plavno-vverx").attr("class",  "konpka_vverx");
+    });
+        function kk2(){
+            var ds= document.getElementById("city");
+            ds.innerHTML = "Ростов-на-Дону";
+            var ds1 = document.getElementById("naeb");
+            ds1.innerHTML = "Город"
+        }
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
     <!-- Конец скриптов -->
 </html>

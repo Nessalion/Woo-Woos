@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
 }
-
+/* задний фон */
 body{
     background-image: url(bg.jpg);
     /* background-color: blue; */
@@ -14,79 +15,35 @@ body{
     height:100012px;
     
 }
-/* Nav */
+/* Верхняя приклееная шапка */
 #osnova{
     width:2000px;
     height: 110px;
-    background-image: url(шапка.jpg);
-    /* background-color: rgb(95, 95, 95); */
+    background-image: url(шапка.png);
     position: fixed;
-    /* background-blend-mode: multiply; */
-    
-    margin: 0px; 
-    
-
-    
+    margin: 0px;  
 }
-#verx{
-    width: 200px;
-    height: 200px;
+#knopa1{
+   
+    font-size: 2em;
+    color:cornsilk;
+    text-align: center;
+    float:left;
+    width: 316px;
+    height: 100px; 
     
-    
-    
-} 
+    background-image: url(Woo-Wooz1.png);
+}
+/* Основной белый фон */
 .RAE{
     width: 1330px;
     height:10000px;
     background-color: white;
     margin: 0px auto;
-    padding-top: 66px;
-}
-span{
-    font-family: cursive;
-}
-#knopa1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2em;
-    color:cornsilk;
-    text-align: center;
-    float:left;
-    /* width: 435px;
-    height: 100px; */
-    block-size: 50%;
-    
-    background-image: url(Woo-Wooz1.png);
+    padding-top: 110px;
 }
 
-#fgd{
-    font-size: 2em;
-    color:crimson;
-    margin-left: 44px ;
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-#spisok{
-    width:200px;
-    height: 100px;
-    margin-left: 0px;
-    margin-right: 0;
-    
-    background-color: rgba(126, 125, 125, 0.637);
-    
-}
-#sp{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1,5em;
-    margin: auto 50px;
-}
-#pole{
-    background-color: rgba(126, 125, 125, 0.336); 
-    width: 200px;
-    height: 137px;
-    margin-left: 154px;
-    float:left;
-    
-}
+/* Кнопка со списком выпадоющим */
 #drop{
     float:left;
     margin-left:169px;
@@ -101,27 +58,55 @@ span{
     border-radius: 0px;
      
 }
+/* Кнопка подьёма */
 #nevid
 {
-width:1px;
-height: 1px;
+width:0px;
+height: 0px;
 background-color: teal;
+float:left;
 }
 #plavno-vverx
 {
-    background-image: url(кнопа_в.png);
+    background-image: url(strelka.png);
     background-size: cover;
-    width: 200px;
-    height: 200px;
-    float:left;
+    
+    
+
+    opacity: 0.15;
+    float:right;
+    /* filter: alpha(Opacity=95);
+    opacity: 0.95;  */
     /* margin-top:200px; */
 }
+
 #lol
 {
-    
-    
-    position: fixed;
+    float:right; 
+    left:1700px;
+    top: 777px;
+    position: fixed; 
     /* background-color: rgba(139, 0, 0, 0.384); */
     border-radius: 100px ;
-    margin-top: 750px; 
+    
 }
+.konpka_vverx
+{
+    width: 100px;
+    height: 100px;
+}
+#city
+{
+    background-color: rgba(105, 153, 129, 0.5);
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    /* outline-color: brown; */
+    /* box-shadow: 0 0 10px 1052px rgba(255, 166, 0, 0.39) inset; */
+    border-color:rgba(165, 42, 42, 0);
+    
+    margin-right: 476px;
+    margin-top: 28px;
+    float:right;
+}
+
