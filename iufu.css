@@ -175,8 +175,24 @@ float:left;
 
 }
 
+#Asp_gip
+{
+    color:black;
+}
+
+#Mag_gip
+{
+    color:black;
+}
+
+#Bak_gip
+{
+    color:black;
+}
+
 #tow{
     margin-top: 25px;
+    margin-left: 50px;
 }
 
 #logo_iufu{
