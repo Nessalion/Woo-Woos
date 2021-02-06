@@ -188,7 +188,20 @@ float:left;
 }
 #Details
 {
+    padding: 0px 54px;
+    letter-spacing:-3px;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(53, 53, 53);
     font-size:60px;
-    
+    cursor: pointer;
+}
+.Tochka
+{
+    margin-left: 13px;
+}
+#ull
+{
+    width: 0px;
+    height: 0px;
 }
 
