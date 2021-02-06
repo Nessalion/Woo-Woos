@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+    <!-- Просто Башка -->
+    <head>
+        <title>Тутута</title>
+        <link rel="icon" href="akademi4eskaya_shlyapa.png" type="image/png">
+        <meta charset="utf-8">
+
+        <meta name="description" content="Поступление на бакалавриат, магистратуру и аспирантуру ИКТИБ ЮФУ в 2021 году">
+        <meta name="keywords" content="поступление, институт, университет, бакалавр, бакалавриат, магистр, магистратура, аспирант, аспирантура, ИКТИБ, институт компьютерных технологий и информационной безопасности, ЮФУ, 2021">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="bakal.css">
+        
+        
+    </head>
+    <!-- Главная Башка -->
+    <header class="Verxniy_xren" id="osnova">
+        <a id="knopa1" href="main.html"></a>   <!-- Кнопка с картинкой Woo-Wooz  -->
+        
+        
+        <button id="ButPer" ><a href="iufu.html" id="aoo">Перейти</a></button>
+        <select name="select1" id="University">
+            <option selected="selected">Университеты</option>
+            <option>ЮФУ</option>
+            
+        </select>
+        
+        <select name="select2" id="city">
+            <option selected="selected">Выберите Город</option>
+            <option>Ростов-на-Дону</option>
+            
+        </select>
+        
+    </header>
+    <!-- Башка с кнопкой -->
+    <header id="lol" class>
+        <div id="plavno-vverx" onclick="slowScroll('#body')">
+        
+        </div>
+        
+    </header>
+    <!-- Тело сайта -->
+    <body id="body">
+        <!-- Основное поле работы -->
+        <div class="RAE">
+            
+        </div>
+        
+        
+        
+    </body> 
+    <!-- Начало скриптов -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script lang="JavaScript">
+        function slowScroll(id) {
+        $('html, body').animate({
+            scrollTop: $(id).offset().top}, 500);
+            
+        }
+
+        $(document).on("scroll", function () {
+      if($(window).scrollTop() === 0)
+        $("#plavno-vverx").removeClass("konpka_vverx");
+      else
+        $("#plavno-vverx").attr("class",  "konpka_vverx");
+    });
+        
+    </script>
+    
+    <!-- Конец скриптов -->
+</html>

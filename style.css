@@ -45,29 +45,9 @@ body{
     padding-top: 159px;
 }
 
-/* Кнопка со списком выпадоющим */
-#drop{
-    float:left;
-    margin-left:169px;
-    margin-top: 9px;
-}
-#button1{
-    background-image: url(png-clipart-thumb-signal-social-media-emoji-facebook-messenger-social-media-rectangle-emoticon.png);
-    background-size:cover;
-    color:rgba(139, 0, 139, 0);
-    width:0px;
-    height: 0px;
-    border-radius: 0px;
-     
-}
+
+
 /* Кнопка подьёма */
-#nevid
-{
-width:0px;
-height: 0px;
-background-color: teal;
-float:left;
-}
 #plavno-vverx
 {
     background-image: url(strelka.png);
@@ -81,7 +61,6 @@ float:left;
     opacity: 0.95;  
     /* /* margin-top:200px; */
 }
-
 #lol
 {
     float:right; 
