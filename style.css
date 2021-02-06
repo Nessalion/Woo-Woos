@@ -51,9 +51,11 @@ span{
     color:cornsilk;
     text-align: center;
     float:left;
-    width: 100px;
-    height: 100px;
-    background-image: url();
+    /* width: 435px;
+    height: 100px; */
+    block-size: 50%;
+    
+    background-image: url(Woo-Wooz1.png);
 }
 
 #fgd{
@@ -94,8 +96,8 @@ span{
     background-image: url(png-clipart-thumb-signal-social-media-emoji-facebook-messenger-social-media-rectangle-emoticon.png);
     background-size:cover;
     color:rgba(139, 0, 139, 0);
-    width:96px;
-    height: 50px;
+    width:0px;
+    height: 0px;
     border-radius: 0px;
      
 }
