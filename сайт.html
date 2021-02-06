@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="ru">
+    <!-- Просто Башка -->
     <head>
+        <title>Тутута</title>
         <link rel="icon" href="akademi4eskaya_shlyapa.png" type="image/png">
         <meta charset="utf-8">
 
@@ -13,63 +15,47 @@
 
         <link rel="stylesheet" href="style.css">
         
-        <title>Тутута</title>
         
     </head>
+    <!-- Главная Башка -->
     <header class="Verxniy_xren" id="osnova">
-        <a id="knopa1" href="сайт.html"></a>
-       
+         <a id="knopa1" href="C:\Users\konop\Desktop\Хакатон\Visual Studio\сайт.html"></a>   <!-- Кнопка с картинкой Woo-Wooz  -->
         <div class="dropdown" id="drop">
-            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="button1">Кнопа</button>
-            <ul class="dropdown-menu">
-                <li><a href="#nevid">Школьники</a></li>
-                <li><a href="#">Левым</a></li>
-                <li><a href="#">Правым</a></li>
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="button1">Кнопа</button>  <!-- Кнопка со выпадающим списком     -->
+                <ul class="dropdown-menu">
+                    <li><a href="#nevid">Школьники</a></li>
+                    <li><a href="#">Левым</a></li>
+                    <li><a href="#">Правым</a></li>
 
 
 
-            </ul>
+                </ul>
 
 
+        </div>
+    </header>
+    <!-- Башка с кнопкой -->
+    <header id="lol">
+        <div id="plavno-vverx" onclick="slowScroll('#nevid')">
+        
         </div>
         
     </header>
-    <header id="lol">
-        <div id="plavno-vverx" onclick="slowScroll('#syda')">
-
-        </div>
-    </header>
+    <!-- Тело сайта -->
     <body id="body">
+        <!-- Основное поле работы -->
         <div class="RAE">
+            
             <div id="nevid">
         
             </div>
-            <!-- <h1 id="syda">fddddddddddddddddddd</h1> -->
-
-            
-            
         </div>
         
         
         
     </body> 
+    <!-- Начало скриптов -->
     <script lang="JavaScript">
-        function kk(){
-            var body = document.getElementById("pole");
-            var div = document.getElementById("spisok");
-            if (div===null){
-                var div = document.createElement("div")
-                div.id="spisok"
-                div.innerHTML = "<span id='sp'>О Институте</span>";
-                body.appendChild(div);
-                // alert(fgd.onmouseout);
-            }
-            
-        }
-        
-        function kk2(){spisok.remove(); }
-        // fgd.onmouseout= function kk2(){ spisok.remove();}
-        
         function slowScroll(id) {
         $('html, body').animate({
             scrollTop: $(id).offset().top}, 500);
@@ -80,5 +66,5 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
+    <!-- Конец скриптов -->
 </html>
