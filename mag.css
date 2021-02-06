@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+/* задний фон */
+body{
+    background-image: url(bg.jpg);
+    /* background-color: blue; */
+    background-attachment: fixed,scroll;
+    background-size:cover;
+    
+    background-position:center;
+    height:100012px;
+    
+}
+/* Верхняя приклееная шапка */
+#osnova{
+    width:2000px;
+    height: 110px;
+    background-image: url(top.png);
+    position: fixed;
+    
+}
+#knopa1{
+    background-image: url(logo.png);
+    font-size: 2em;
+    
+    text-align: center;
+    float:left;
+    width: 289px;
+    height: 91px; 
+    margin-top: 5px;
+    
+
+    
+}
+/* Основной белый фон */
+.RAE{
+    width: 1330px;
+    height:10000px;
+    background-color: rgb(254, 255, 248);
+    margin: 0px auto;
+    padding-top: 159px;
+}
+
+/* Кнопка со списком выпадоющим */
+#drop{
+    float:left;
+    margin-left:169px;
+    margin-top: 9px;
+}
+#button1{
+    background-image: url(png-clipart-thumb-signal-social-media-emoji-facebook-messenger-social-media-rectangle-emoticon.png);
+    background-size:cover;
+    color:rgba(139, 0, 139, 0);
+    width:0px;
+    height: 0px;
+    border-radius: 0px;
+     
+}
+/* Кнопка подьёма */
+#nevid
+{
+width:0px;
+height: 0px;
+background-color: teal;
+float:left;
+}
+#plavno-vverx
+{
+    background-image: url(strelka.png);
+    background-size: cover;
+    
+    
+
+    /* opacity: 0.15; */
+    float:right;
+    filter: alpha(Opacity=95);
+    opacity: 0.95;  
+    /* /* margin-top:200px; */
+}
+
+#lol
+{
+    float:right; 
+    left:1700px;
+    top: 777px;
+    position: fixed; 
+    /* background-color: rgba(139, 0, 0, 0.384); */
+    border-radius: 100px ;
+    
+}
+.konpka_vverx
+{
+    width: 100px;
+    height: 100px;
+}
+
+#city
+{
+    background-color: rgba(105, 153, 129, 0.5);
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    /* outline-color: brown; */
+    /* box-shadow: 0 0 10px 1052px rgba(255, 166, 0, 0.39) inset; */
+    border-color:rgba(165, 42, 42, 0);
+    padding-left: 13px;
+    margin-right: 31px; 
+    margin-top: 28px; 
+    float:right;
+}
+#University
+{
+    background-color: rgba(105, 153, 129, 0.5);
+    border-radius: 50px;
+    float:right;
+    height: 50px;
+    width: 150px;
+    margin-top: 28px; 
+    margin-right: 31px;
+    border-color:rgba(165, 42, 42, 0);
+    padding-left: 23px;
+}
+#ButPer{
+    border-radius: 50px;
+    height: 50px;
+    width: 75px;
+    border-color:rgba(165, 42, 42, 0);
+    background-color: rgba(105, 153, 129, 0.5);
+    float:right;
+    margin-top: 28px; 
+    margin-right: 200px;
+
+}
+#aoo
+{
+    color:black;
+}
