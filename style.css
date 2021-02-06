@@ -40,9 +40,9 @@ body{
 .RAE{
     width: 1330px;
     height:10000px;
-    background-color: white;
+    background-color: rgb(254, 255, 248);
     margin: 0px auto;
-    padding-top: 194px;
+    padding-top: 159px;
 }
 
 /* Кнопка со списком выпадоющим */
@@ -143,11 +143,17 @@ float:left;
 {
     background-color: rgba(128, 255, 0, 0);
     text-align: center;
-    font-size:38pt;
+    font-size:44pt;
     
     padding: 0px 54px;
-    letter-spacing:0pt;
+    letter-spacing:-2px;
     font-family:'Montserrat', sans-serif;
+    color:rgb(53, 53, 53)
 }
-
+#Polosa
+{
+    margin: 38px 39px;
+    
+    
+}
 
