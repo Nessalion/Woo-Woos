@@ -143,12 +143,37 @@ float:left;
 {
     background-color: rgba(128, 255, 0, 0);
     text-align: center;
-    font-size:44pt;
+    font-size:40pt;
     
     padding: 0px 54px;
     letter-spacing:-2px;
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53)
+}
+#Text2
+{
+    
+    text-align: center;
+    font-size:36pt;
+    
+    padding: 0px 54px;
+    letter-spacing:-3px;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(53, 53, 53)
+}
+#Text3
+{
+    
+    
+    padding: 0px 54px;
+    letter-spacing:-3px;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(53, 53, 53)
+}
+#font
+{
+    font-size: 47pt;
+
 }
 #Polosa
 {
