@@ -18,8 +18,8 @@ body{
 /* Верхняя приклееная шапка */
 #osnova{
     width:2000px;
-    height: 107px;
-    background-image: url(asdads.png);
+    height: 110px;
+    background-image: url(top.png);
     position: fixed;
     
 }
@@ -31,7 +31,7 @@ body{
     float:left;
     width: 289px;
     height: 91px; 
-    margin-top: 3px;
+    margin-top: 5px;
     
 
     background-image: url(Woo-Wooz.png);
@@ -42,7 +42,7 @@ body{
     height:10000px;
     background-color: white;
     margin: 0px auto;
-    padding-top: 110px;
+    padding-top: 194px;
 }
 
 /* Кнопка со списком выпадоющим */
@@ -137,7 +137,13 @@ float:left;
 }
 #Text
 {
-    background-color: rgba(128, 255, 0, 0.418);
+    background-color: rgba(128, 255, 0, 0);
+    text-align: center;
+    font-size:40pt;
+    
+    padding: 0px 54px;
+    letter-spacing:pt;
+    font-family:'Montserrat', sans-serif;
 }
 
 
