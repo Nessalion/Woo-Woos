@@ -19,7 +19,7 @@ body{
 #osnova{
     width:2000px;
     height: 107px;
-    background-image: url(asdads.png);
+    background-image: url(top.png);
     position: fixed;
     
 }
@@ -34,7 +34,7 @@ body{
     margin-top: 3px;
     
 
-    background-image: url(Woo-Wooz.png);
+    background-image: url(logo.png);
 }
 /* Основной белый фон */
 .RAE{
