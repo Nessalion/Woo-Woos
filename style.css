@@ -199,3 +199,33 @@ body{
     letter-spacing: -3px;
     padding-left: 29px;
 }
+#Text4
+{
+    padding-left: 54px;
+    width: 531px;
+    letter-spacing:-3px;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(53, 53, 53);
+    float: left;
+}
+.Zopa
+{
+    height: 75px;
+    width: 75px;
+}
+.Zopa2
+{
+    margin: 0;
+    font-size: 30px;
+    width: 475px;
+}
+#Text5
+{
+    padding-right: 54px;
+    width: 531px;
+    float: right;
+    letter-spacing:-3px;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(53, 53, 53)
+    
+}
