@@ -18,7 +18,7 @@ body{
 /* Верхняя приклееная шапка */
 #osnova{
     width:2000px;
-    height: 107px;
+    height: 110px;
     background-image: url(top.png);
     position: fixed;
     
