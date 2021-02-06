@@ -12,7 +12,7 @@ body{
     background-size:cover;
     
     background-position:center;
-    height:100012px;
+    height:auto;
     
 }
 /* Верхняя приклееная шапка */
@@ -39,7 +39,7 @@ body{
 /* Основной белый фон */
 .RAE{
     width: 1330px;
-    height:10000px;
+    height:auto;
     background-color: rgb(254, 255, 248);
     margin: 0px auto;
     padding-top: 159px;
@@ -74,7 +74,7 @@ float:left;
     background-size: cover;
     
     
-
+    cursor: pointer;
     /* opacity: 0.15; */
     float:right;
     filter: alpha(Opacity=95);
@@ -204,4 +204,19 @@ float:left;
     width: 0px;
     height: 0px;
 }
-
+#summary
+{
+    width: 314px;   
+}
+.Text3_Details_summary_t2
+{
+    padding-left: 14px;
+    
+}
+#det_h1
+{   
+    cursor:auto;
+    font-size: 43px;
+    letter-spacing: -3px;
+    padding-left: 29px;
+}
