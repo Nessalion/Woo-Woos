@@ -38,7 +38,7 @@ body{
 }
 /* Основной белый фон */
 .RAE{
-    width: 1375px;
+    width: 1330px;
     height:10000px;
     background-color: rgb(254, 255, 248);
     margin: 0px auto;
@@ -192,7 +192,7 @@ float:left;
 
 #tow{
     margin-top: 25px;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 #logo_iufu{
