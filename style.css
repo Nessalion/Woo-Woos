@@ -150,6 +150,7 @@ float:left;
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53)
 }
+
 #Text2
 {
     
@@ -160,6 +161,10 @@ float:left;
     letter-spacing:-3px;
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53)
+}
+#h1_Text2
+{
+    margin-top: 0px;
 }
 #Text3
 {
@@ -179,6 +184,11 @@ float:left;
 {
     margin: 38px 39px;
     
+    
+}
+#Details
+{
+    font-size:60px;
     
 }
 
