@@ -18,10 +18,10 @@ body{
 /* Верхняя приклееная шапка */
 #osnova{
     width:2000px;
-    height: 110px;
-    background-image: url(шапка.png);
+    height: 107px;
+    background-image: url(asdads.png);
     position: fixed;
-    margin: 0px;  
+    
 }
 #knopa1{
    
@@ -29,10 +29,12 @@ body{
     color:cornsilk;
     text-align: center;
     float:left;
-    width: 316px;
-    height: 100px; 
+    width: 289px;
+    height: 91px; 
+    margin-top: 3px;
     
-    background-image: url(Woo-Wooz1.png);
+
+    background-image: url(Woo-Wooz.png);
 }
 /* Основной белый фон */
 .RAE{
@@ -133,6 +135,9 @@ float:left;
     margin-right: 200px;
 
 }
-
+#Text
+{
+    background-color: rgba(128, 255, 0, 0.418);
+}
 
 
