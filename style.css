@@ -39,9 +39,11 @@ body{
 /* Основной белый фон */
 .RAE{
     width: 1330px;
+    min-height: 1340px;
     height:auto;
     background-color: rgb(254, 255, 248);
     margin: 0px auto;
+    
     padding-top: 159px;
 }
 
@@ -165,7 +167,7 @@ body{
     
     
 }
-#Details
+.Details
 {
     padding: 0px 54px;
     letter-spacing:-3px;
@@ -201,12 +203,12 @@ body{
 }
 #Text4
 {
-    padding-left: 54px;
+    padding-right: 54px;
     width: 531px;
     letter-spacing:-3px;
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53);
-    float: left;
+    float: right;
 }
 .Zopa
 {
@@ -221,11 +223,20 @@ body{
 }
 #Text5
 {
-    padding-right: 54px;
+    padding-left: 54px;
     width: 531px;
-    float: right;
+    /* float: left; */
     letter-spacing:-3px;
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53)
     
+}
+#summary1
+{
+    font-size: 60px;
+
+}
+#ooooo1
+{
+    padding-left: 107px;
 }
