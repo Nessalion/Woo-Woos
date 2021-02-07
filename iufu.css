@@ -38,7 +38,7 @@ body{
 }
 /* Основной белый фон */
 .RAE{
-    width: 1330px;
+    width: 1375px;
     height:10000px;
     background-color: rgb(254, 255, 248);
     margin: 0px auto;
@@ -51,15 +51,7 @@ body{
     margin-left:169px;
     margin-top: 9px;
 }
-#button1{
-    background-image: url(png-clipart-thumb-signal-social-media-emoji-facebook-messenger-social-media-rectangle-emoticon.png);
-    background-size:cover;
-    color:rgba(139, 0, 139, 0);
-    width:0px;
-    height: 0px;
-    border-radius: 0px;
-     
-}
+
 /* Кнопка подьёма */
 #nevid
 {
@@ -166,7 +158,7 @@ float:left;
     height: 60px;
     width: 170px;
     border-color:rgba(165, 42, 42, 0);
-    background-color: rgba(105, 153, 129, 0.5);
+    background-color: rgba(105, 153, 129, 0.911);
     float:right;
     margin-top: 28px; 
     margin-right: 380px;
@@ -179,7 +171,7 @@ float:left;
     height: 60px;
     width: 170px;
     border-color:rgba(165, 42, 42, 0);
-    background-color: rgba(105, 153, 129, 0.5);
+    background-color: rgba(105, 153, 129, 0.911);
     float:right;
     margin-top: 28px; 
     margin-right: 400px;
@@ -192,7 +184,7 @@ float:left;
     height: 60px;
     width: 170px;
     border-color:rgba(165, 42, 42, 0);
-    background-color: rgba(105, 153, 129, 0.5);
+    background-color: rgba(105, 153, 129, 0.911);
     float:right;
     margin-top: 28px; 
     margin-right: 20px;
@@ -241,21 +233,47 @@ float:left;
 }
 #bg1
 {
-    width: 1330px;
+    width: 1375px;
     height: 747px;
     
     float:right;
     background-image: url(iufu.jpeg);
-    background-size: 1330px 747px;
+    background-size: 1375px 747px;
     
     background-color: rgba(68, 64, 64, 0.356);
     /* background-blend-mode: multiply; */
-    margin-top: 51px;
+    
 }
 #knopki
 {
     height: 95px;
     background-color: rgb(50, 93, 144);
 }
-
-
+#Text1
+{
+    /* background-color: rgb(68, 64, 64); */
+    float:left;
+    color:white;
+    margin-top: 20px;
+    height: 76px;
+    margin-left: 27px;
+    width: 338px;
+    padding-left: 9px;
+}
+#Text1_h1
+{
+    font-family:  'Montserrat', sans-serif;
+    font-size:50pt;
+    width: 314px;
+    background-color: rgb(4, 184, 255);
+}
+#Sobut
+{
+    float:left;
+    color:black;
+}
+#Novos1
+{
+    width: 750px;
+    
+}
