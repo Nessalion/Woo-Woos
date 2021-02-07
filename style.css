@@ -135,17 +135,19 @@ body{
     background-image: url(button_right.png);
 }
 
+
 .but:hover
 {
-    background-blend-mode: multiply ;
-    background-image: url(russian.png);
+    color:rgb(255, 28, 28);
     transition: 0,3s;
+    background-color: rgba(53, 53, 53, 0);
+    
 } 
 #aoo
 {
     color:rgb(68, 64, 64);
     font-size:20pt;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Oswald', sans-serif;
 }
 #Text
 {
@@ -160,7 +162,7 @@ body{
 }
 #font1
 {
-    margin-top: 150px;
+    margin-top: 32px;
 
 }
 
@@ -222,9 +224,9 @@ body{
 #det_h1
 {   
     cursor:auto;
-    font-size: 43px;
+    font-size: 40px;
     letter-spacing: -3px;
-    padding-left: 29px;
+    padding-left: 46px;
 }
 #Text4
 {
