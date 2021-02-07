@@ -275,3 +275,21 @@ body{
     
     
 }
+#vk
+{
+    /* background-image: url(iconfinder_vk_2155325.png); */
+    
+    
+    
+    float:left;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+}
+#Pod
+{
+    color:rgb(68, 64, 64);
+    float:left;
+}
