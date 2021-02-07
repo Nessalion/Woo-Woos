@@ -114,6 +114,7 @@ float:left;
     float:right;
     font-family:  'Oswald', sans-serif;
     font-size: 20pt;
+    cursor:pointer;
     
     
     appearance: none;
@@ -134,7 +135,7 @@ float:left;
     border-color:rgba(165, 42, 42, 0);
     padding-left: 23px;
     appearance: none;
-
+    cursor:pointer;
 }
 #ButPer{
     border-radius: 0.1px;
@@ -222,8 +223,39 @@ float:left;
     margin-top: 25px;
     margin-left:  10px;
 }
+#Nachalo
+{
+    float:right;
+    width: 1330px;
+}
+#logo
+{
+    background-image: url(logo_iufu_v_jope.png);
+    float:right;
+    width: 260px;
+    height: 260px;
+    background-size: 260px;
+    margin-right: 20px;
+    margin-top: 20px;
 
-
-
+}
+#bg1
+{
+    width: 1330px;
+    height: 747px;
+    
+    float:right;
+    background-image: url(iufu.jpeg);
+    background-size: 1330px 747px;
+    
+    background-color: rgba(68, 64, 64, 0.356);
+    /* background-blend-mode: multiply; */
+    margin-top: 51px;
+}
+#knopki
+{
+    height: 95px;
+    background-color: rgb(50, 93, 144);
+}
 
 

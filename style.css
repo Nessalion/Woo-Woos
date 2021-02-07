@@ -96,6 +96,7 @@ body{
     font-family:  'Oswald', sans-serif;
     font-size: 20pt;
     
+    cursor:pointer;
     
     appearance: none;
     background-image: url(button_left.png);
@@ -115,6 +116,8 @@ body{
     border-color:rgba(165, 42, 42, 0);
     padding-left: 23px;
     appearance: none;
+    cursor:pointer;
+
 
 }
 #ButPer{
@@ -292,4 +295,5 @@ body{
 {
     color:rgb(68, 64, 64);
     float:left;
+
 }
