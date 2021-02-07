@@ -131,7 +131,7 @@ body{
     margin-top: 14px; 
     margin-right: 390px;
     
-
+    
     background-image: url(button_right.png);
 }
 
@@ -266,4 +266,12 @@ body{
 #ooooo1
 {
     padding-left: 107px;
+}
+#niz
+{
+    width:1864px;
+    height: 110px;
+    background-image: url(botom-top.png);
+    
+    
 }
