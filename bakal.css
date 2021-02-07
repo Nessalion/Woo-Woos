@@ -5,25 +5,28 @@
     font-family: 'Montserrat', sans-serif;
 }
 /* задний фон */
-body{
+body
+{
     background-image: url(bg.jpg);
     /* background-color: blue; */
     background-attachment: fixed,scroll;
     background-size:cover;
     
     background-position:center;
-    height:100012px;
+    height:5000px;
     
 }
 /* Верхняя приклееная шапка */
-#osnova{
+#osnova
+{
     width:2000px;
     height: 110px;
     background-image: url(top.png);
     position: fixed;
     
 }
-#knopa1{
+#knopa1
+{
     background-image: url(logo.png);
     font-size: 2em;
     
@@ -37,21 +40,24 @@ body{
     
 }
 /* Основной белый фон */
-.RAE{
+.RAE
+{
     width: 1330px;
-    height:10000px;
+    height: 5000px;;
     background-color: rgb(254, 255, 248);
     margin: 0px auto;
     padding-top: 159px;
 }
 
 /* Кнопка со списком выпадоющим */
-#drop{
+#drop
+{
     float:left;
     margin-left:169px;
     margin-top: 9px;
 }
-#button1{
+#button1
+{
     background-image: url(png-clipart-thumb-signal-social-media-emoji-facebook-messenger-social-media-rectangle-emoticon.png);
     background-size:cover;
     color:rgba(139, 0, 139, 0);
@@ -63,10 +69,10 @@ body{
 /* Кнопка подьёма */
 #nevid
 {
-width:0px;
-height: 0px;
-background-color: teal;
-float:left;
+    width:0px;
+    height: 0px;
+    background-color: teal;
+    float:left;
 }
 #plavno-vverx
 {
@@ -124,7 +130,8 @@ float:left;
     border-color:rgba(165, 42, 42, 0);
     padding-left: 23px;
 }
-#ButPer{
+#ButPer
+{
     border-radius: 50px;
     height: 50px;
     width: 75px;
@@ -140,3 +147,35 @@ float:left;
     color:black;
 }
 
+#Text
+{
+    box-sizing: content-box;
+    background-image: url(/iufu_sol.jpg);
+    /* float: left; */
+    font-size:40pt;
+    
+    padding: 0px 54px;
+    letter-spacing:-2px;
+    font-family:'Montserrat', sans-serif;
+    color:rgb(255, 255, 255);
+    width: 1220px;
+    height: 500px;
+    
+    
+}
+
+#font1
+{
+    float: left;
+}
+
+#logo
+{
+    float: right;
+    margin-top: 20px;
+
+}
+#fon1
+{
+
+}

@@ -131,6 +131,11 @@ body{
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53)
 }
+#font1
+{
+    margin-top: 150px;
+
+}
 
 #Text2
 {
@@ -156,11 +161,7 @@ body{
     font-family:'Montserrat', sans-serif;
     color:rgb(53, 53, 53)
 }
-#font
-{
-    font-size: 47pt;
 
-}
 #Polosa
 {
     margin: 38px 39px;
